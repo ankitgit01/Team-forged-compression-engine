@@ -95,6 +95,7 @@ All outputs are stored in a structured folder for reuse.
 ---
 ### Repository Structure
 autonomous/
+
 ├── app.py
 ├── config.yaml
 ├── requirements.txt
