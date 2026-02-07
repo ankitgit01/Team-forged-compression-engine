@@ -1,5 +1,9 @@
 # Contextual Compression Engine for Extreme Long Inputs
 
+## IMPORTANT : Because of CPU and GPU limitations, we ghave run the full_source_code.ipynb on Google collab so the paths are according to the collab format. To run on VS code, the paths need to be changed (The /content needs to be removed)
+
+## app.py is ready to be run directly on VS code
+
 ## Overview
 
 Enterprises work with very large documents such as policy manuals, legal texts, audit reports, technical runbooks, and long logs. These documents often span hundreds or thousands of pages.
