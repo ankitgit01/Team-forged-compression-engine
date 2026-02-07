@@ -93,29 +93,27 @@ The system produces:
 All outputs are stored in a structured folder for reuse.
 
 ---
-
-## Repository Structure
-
+### Repository Structure
 autonomous/
 ├── app.py
 ├── config.yaml
 ├── requirements.txt
 ├── data/
-│ ├── compressed.json
-│ ├── critical_items.json
-│ ├── contradictions.json
-│ ├── traceability.json
-│ ├── explainability_report.json
-│ ├── chunks.json
-│ └── document_metadata.json
+│   ├── compressed.json
+│   ├── critical_items.json
+│   ├── contradictions.json
+│   ├── traceability.json
+│   ├── explainability_report.json
+│   ├── chunks.json
+│   └── document_metadata.json
 └── src/
-├── document_loader.py
-├── chunker.py
-├── extractor.py
-├── compressor.py
-├── contradiction.py
-├── traceability.py
-└── explainability.py
+    ├── document_loader.py
+    ├── chunker.py
+    ├── extractor.py
+    ├── compressor.py
+    ├── contradiction.py
+    ├── traceability.py
+    └── explainability.py
 
 ---
 
@@ -158,30 +156,30 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Using the Application
+## 📘 Using the Application
 
 The Streamlit interface provides the following views:
 
-Executive Summary
-Highest-level compressed view of the document.
+### 🧭 Executive Summary
+- Highest-level compressed view of the document.
 
-Chapter and Section Summaries
-Hierarchical summaries with drill-down support.
+### 📑 Chapter and Section Summaries
+- Hierarchical summaries with drill-down support.
 
-Paragraph Drill-Down
-Side-by-side view of compressed and original text.
+### 🔎 Paragraph Drill-Down
+- Side-by-side view of compressed and original text.
 
-Key Facts / Exceptions / Risks
-Explicit list of decision-critical information with source references.
+### ⚠️ Key Facts / Exceptions / Risks
+- Explicit list of decision-critical information with source references.
 
-Contradictions
-Potential conflicts detected using semantic similarity.
+### 🔁 Contradictions
+- Potential conflicts detected using semantic similarity.
 
-Explainability Report
-Compression statistics and information-loss metrics.
+### 📊 Explainability Report
+- Compression statistics and information-loss metrics.
 
-Raw Structured Output
-JSON outputs for programmatic use.
+### 🗂️ Raw Structured Output
+- JSON outputs for programmatic use.
 
 ### Explainability and Trust
 
