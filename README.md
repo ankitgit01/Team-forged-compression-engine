@@ -1,8 +1,9 @@
 # Contextual Compression Engine for Extreme Long Inputs
 
-## IMPORTANT : Because of CPU and GPU limitations, we ghave run the full_source_code.ipynb on Google collab so the paths are according to the collab format. To run on VS code, the paths need to be changed (The /content needs to be removed)
+## IMPORTANT : 
+- Because of CPU and GPU limitations, we have run the full_source_code.ipynb on Google collab so the paths are according to the collab format. To run on VS code, the paths need to be changed (The "/content" needs to be removed from every file's path)
 
-## app.py is ready to be run directly on VS code
+- app.py is ready to be run directly on VS code
 
 ## Overview
 
