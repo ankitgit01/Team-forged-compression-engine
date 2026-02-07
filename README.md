@@ -95,6 +95,7 @@ All outputs are stored in a structured folder for reuse.
 ---
 
 ## Repository Structure
+
 autonomous/
 ├── app.py
 ├── config.yaml
@@ -120,9 +121,10 @@ autonomous/
 
 ## Requirements
 
-To run this project, the following are required:
+- To run this project, the following are required:
 
 ### Software Requirements
+
 - Python 3.9 or higher
 - Ollama installed locally
 - A supported Ollama model (for example: `llama3`)
@@ -147,11 +149,14 @@ All dependencies are listed in `requirements.txt`, including:
 
 ```bash
 pip install -r requirements.txt
+```
 
-Ensure that Ollama is installed and running on your system.
+- Ensure that Ollama is installed and running on your system.
 
 2. Start the Application
+```bash
 streamlit run app.py
+```
 
 Using the Application
 
@@ -178,61 +183,60 @@ Compression statistics and information-loss metrics.
 Raw Structured Output
 JSON outputs for programmatic use.
 
-Explainability and Trust
+### Explainability and Trust
 
 The system provides:
 
-Original and compressed character counts
+- Original and compressed character counts
 
-Compression ratios
+- Compression ratios
 
-Reduction percentage
+- Reduction percentage
 
-Full source references
+- Full source references
 
 This allows users to understand:
+- What was kept
 
-What was kept
+- What was removed
 
-What was removed
+- Why the compressed output can be trusted
 
-Why the compressed output can be trusted
+- Known Issues and Future Updates
 
-Known Issues and Future Updates
+### Some sections may contain minor logical or UI inconsistencies.
 
-Some sections may contain minor logical or UI inconsistencies.
+### Certain edge cases in section-to-chapter linking may require refinement.
 
-Certain edge cases in section-to-chapter linking may require refinement.
+### Error handling for malformed or complex PDFs can be improved.
 
-Error handling for malformed or complex PDFs can be improved.
+### These issues are known, and the codebase will be updated in future iterations to address them.
 
-These issues are known, and the codebase will be updated in future iterations to address them.
+### Limitations
 
-Limitations
+- This project does not aim to:
 
-This project does not aim to:
+- Train new language models
 
-Train new language models
+- Handle millions of documents
 
-Handle millions of documents
+- Provide a complex enterprise-grade UI
 
-Provide a complex enterprise-grade UI
+- The focus is on structure, traceability, and decision-preserving compression.
 
-The focus is on structure, traceability, and decision-preserving compression.
+### Evaluation Alignment
 
-Evaluation Alignment
+- This project aligns with the Track-4 evaluation criteria:
 
-This project aligns with the Track-4 evaluation criteria:
+- Clear hierarchical compression strategy
 
-Clear hierarchical compression strategy
+- Strong traceability and evidence support
 
-Strong traceability and evidence support
+- Handling of exceptions and contradictions
 
-Handling of exceptions and contradictions
+- Practical and scalable design
 
-Practical and scalable design
-
-Conclusion
+### Conclusion
 
 This project demonstrates that large documents can be compressed without losing trust.
 By combining hierarchical compression, explicit preservation of critical information, and full traceability, the system produces compact representations that remain usable for enterprise decision-making.
