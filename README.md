@@ -1,5 +1,7 @@
 # Contextual Compression Engine for Extreme Long Inputs
 
+## Video Demonstration and Explanation link : https://youtu.be/9zGykLd-n0Y
+
 ## IMPORTANT : 
 - Because of CPU and GPU limitations, we have run the full_source_code.ipynb on Google collab so the paths are according to the collab format. To run on VS code, the paths need to be changed (The "/content" needs to be removed from every file's path)
 
