@@ -93,9 +93,10 @@ The system produces:
 All outputs are stored in a structured folder for reuse.
 
 ---
-### Repository Structure
-autonomous/
+## Repository Structure
 
+```text
+autonomous/
 ├── app.py
 ├── config.yaml
 ├── requirements.txt
@@ -115,6 +116,8 @@ autonomous/
     ├── contradiction.py
     ├── traceability.py
     └── explainability.py
+```
+
 
 ---
 
